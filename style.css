@@ -23,6 +23,21 @@ body{
 }
 h2{
     margin-top: 1rem;
+    animation: heading 6s linear infinite;
+}
+@keyframes heading {
+    0%{
+        transform: translate(-3rem) ;
+        color: orangered;
+    }
+    50%{
+        transform: translate(3rem) ;
+        color: blue;
+    }
+    100%{
+        transform: translate(-3rem);
+        color: orange
+    }
 }
 textarea{
     margin: 1rem;
